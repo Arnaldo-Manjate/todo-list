@@ -1,0 +1,49 @@
+
+.list-item{
+    position: relative;
+    padding: 12px;
+    height: 30px;
+    border: solid white 1px;
+    background-color: transparent;
+    border-radius: 3px;
+    width: 60%;
+    margin: auto;
+    margin-top: 6px;
+}
+
+.list-item >  li#li{
+    position: relative;
+    display: inline;
+    list-style-type: none;
+    color: navy;
+    font-size: 22px;
+    line-height: 35px;
+    padding: 10px;
+    line-height: 30px;
+    
+}
+
+.list-item > li > input{
+  background-color: transparent;
+  outline: 0;
+  border: 0;
+  font-size: 22px;
+    
+}
+
+
+.list-item > span {
+    position: absolute;
+    right: 10px;
+    background-color: transparent;
+    border: solid 1px black;
+    background-color: rgb(136, 4, 4);
+    border-radius : 4px;
+    outline: 0;
+    float: right;
+    line-height: 20px;
+    padding: 6px;
+    cursor: pointer;
+    color: white;
+ 
+}

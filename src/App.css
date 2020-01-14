@@ -1,0 +1,58 @@
+
+body{
+  background-color: rgb(240, 240, 240);
+  position: relative;
+
+}
+
+.App {
+  text-align: center;
+  background-color: #306957;
+  min-height: 500px;
+  width: 800px;
+  margin: auto;
+  box-shadow: 2px 16px 16px grey;
+  border-radius: 5px;
+  margin-top: 80px;
+  padding: 7px;
+}
+
+.App > h1 {
+  font-weight: 100;
+  margin-top: 25px;
+  color: white;
+}
+
+#form-input input{
+  outline: 0;
+  border:0;
+  border-bottom: solid rgb(61, 60, 60) 1px;
+  background-color:transparent;
+  text-align: center;
+  width: 450px;
+  font-size: 17px;
+}
+
+.App > h3{
+  display: inline-block;
+  margin: 0px;
+  padding: 0px;
+  font-weight: 100;
+  border-bottom: 1px solid black;
+  margin-bottom: 1rem;
+}
+
+#form-input input:focus {
+  border-bottom: solid rgb(39, 38, 38) 1px;
+}
+
+
+#form-input button{
+  margin-top: 10px;
+  background-color: transparent;
+  border: solid 1px white;
+  border-radius: 4px;
+  padding: 8px;
+  outline: 0;
+  cursor: pointer;
+}
